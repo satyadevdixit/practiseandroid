@@ -10,13 +10,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.dagger.hilt.android'
 android {
     namespace 'com.example.myapplication'
-    compileSdk 32
+    compileSdk 33
     ext.hilt_version = '2.40.1'
 
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
